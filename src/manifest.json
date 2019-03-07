@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "web.skype.com support for Firefox",
+  "version": "0.0.0",
+  "author": "Phil Tsaryk",
+
+  "description": "https://web.skype.com/ can be opened in Firefox with this extension.",
+  "homepage_url": "https://github.com/phts/firefox-web-skype",
+  "icons": {
+    "48": "icons/app-48.png"
+  },
+
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://web.skype.com/*"
+  ],
+
+  "applications": {
+    "gecko": {
+      "id": "firefox-web-skype@phts",
+      "strict_min_version": "52.0"
+    }
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
