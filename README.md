@@ -1,6 +1,11 @@
-# web.skype.com support for Firefox
+# web.skype.com for Firefox
 
 [![Mozilla Add-on](https://img.shields.io/amo/v/firefox-web-skype.svg)](https://addons.mozilla.org/firefox/addon/firefox-web-skype/)
 
-WebExtension for Mozilla Firefox. Add possibility to still open *web.skype.com* in Firefox
-since Firefox became unsupported browser for *Skype for Web* (Microsoft :-1:).
+WebExtension for Mozilla Firefox.
+With this extension you are able to open https://web.skype.com/ in Firefox.
+
+This extension sets `userAgent` like in Google Chrome only for https://web.skype.com/.
+So Skype is thinking that this is Chrome browser and does not show "Unsupported browser" message.
+
+Microsoft :-1: for adding Firefox to unsupported browser list for *Skype for Web* app.
