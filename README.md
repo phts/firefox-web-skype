@@ -6,8 +6,9 @@
 
 WebExtension for Mozilla Firefox.
 With this extension you are able to open https://web.skype.com/ in Firefox.
+https://preview.web.skype.com/ also works.
 
-This extension sets `userAgent` like in Google Chrome only for https://web.skype.com/.
-So Skype is thinking that this is Chrome browser and does not show "Unsupported browser" message.
+This extension sets Google Chrome's `userAgent` for `https://web.skype.com/` and `https://preview.web.skype.com/`.
+So Skype believes this is Chrome browser and does not show "Unsupported browser" message.
 
 Microsoft :-1: for adding Firefox to unsupported browser list for *Skype for Web* app.

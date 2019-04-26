@@ -13,7 +13,8 @@
   "permissions": [
     "webRequest",
     "webRequestBlocking",
-    "https://web.skype.com/*"
+    "https://web.skype.com/*",
+    "https://preview.web.skype.com/*"
   ],
 
   "applications": {

@@ -1,6 +1,9 @@
 'use strict'
 
-const TARGET_PAGE = 'https://web.skype.com/*'
+const TARGET_URLS = [
+  'https://web.skype.com/*',
+  'https://preview.web.skype.com/*',
+]
 const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.32 Safari/537.36'
 
 function rewriteUserAgentHeader(e) {
@@ -14,5 +17,5 @@ function rewriteUserAgentHeader(e) {
 
 browser.webRequest.onBeforeSendHeaders.addListener(
   rewriteUserAgentHeader,
-  {urls: [TARGET_PAGE]},
+  {urls: TARGET_URLS},
   ['blocking', 'requestHeaders'])
