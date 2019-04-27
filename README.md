@@ -11,4 +11,4 @@ https://preview.web.skype.com/ also works.
 This extension sets Google Chrome's `userAgent` for `https://web.skype.com/` and `https://preview.web.skype.com/`.
 So Skype believes this is Chrome browser and does not show "Unsupported browser" message.
 
-Microsoft :-1: for adding Firefox to unsupported browser list for *Skype for Web* app.
+Shame on you Microsoft for throwing Firefox users away and actually enforcing Chrome's monopoly. :-1: :dizzy_face: 
