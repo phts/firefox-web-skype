@@ -14,7 +14,8 @@
     "webRequest",
     "webRequestBlocking",
     "https://web.skype.com/*",
-    "https://preview.web.skype.com/*"
+    "https://preview.web.skype.com/*",
+    "https://join.skype.com/*"
   ],
 
   "applications": {
