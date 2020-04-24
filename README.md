@@ -16,4 +16,8 @@ Supported URLs:
 This extension sets Google Chrome's `userAgent` for the URLs above.
 So Skype believes that you are using Chrome browser and does not show "Unsupported browser" message.
 
+:warning: This extension **does not fix** any issues related to WebRTC API, so video calls and other features may still not work on Firefox.
+
+---
+
 Shame on you Microsoft for throwing Firefox users away and actually enforcing Chrome's monopoly. :-1: :dizzy_face:
