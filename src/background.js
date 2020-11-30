@@ -4,6 +4,7 @@ const TARGET_URLS = [
   'https://web.skype.com/*',
   'https://preview.web.skype.com/*',
   'https://join.skype.com/*',
+  'https://edge.skype.com/*',
 ]
 const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3835.0 Safari/537.36'
 
