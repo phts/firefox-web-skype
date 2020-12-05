@@ -13,10 +13,12 @@
   "permissions": [
     "webRequest",
     "webRequestBlocking",
-    "https://web.skype.com/*",
-    "https://preview.web.skype.com/*",
-    "https://join.skype.com/*",
-    "https://edge.skype.com/*"
+    "https://*.live.com/*",
+    "https://*.live.net/*",
+    "https://*.microsoft.com/*",
+    "https://*.microsoftonline.com/*",
+    "https://*.skype.com/*",
+    "https://*.skypeassets.com/*"
   ],
 
   "applications": {
