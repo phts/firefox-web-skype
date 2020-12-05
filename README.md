@@ -16,7 +16,7 @@ Supported URLs:
 This extension sets Google Chrome's `userAgent` for the URLs above.
 So now Skype believes that you are using Chrome browser and does not show "Unsupported browser" message.
 
-There are requests from users came recently about "Oops, it looks like something went wrong" error message ([#7], [#8]).
+There are requests from users about "Oops, it looks like something went wrong" error message started happening recently ([#7], [#8]).
 In order to fix that there were added more URLs:
 
 * `https://*.live.com/*`
