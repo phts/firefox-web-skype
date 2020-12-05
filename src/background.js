@@ -6,7 +6,7 @@ const TARGET_URLS = [
   'https://join.skype.com/*',
   'https://edge.skype.com/*',
 ]
-const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3835.0 Safari/537.36'
+const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36'
 
 function rewriteUserAgentHeader(e) {
   for (let header of e.requestHeaders) {
